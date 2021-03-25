@@ -13,7 +13,6 @@ export class DemoStack extends cdk.Stack {
       new s3.Bucket(this, "MyDemoBucket", {
         encryption: s3.BucketEncryption.KMS_MANAGED,
         enforceSSL: true,
-        publicReadAccess: false,
         versioned: true,
         removalPolicy: cdk.RemovalPolicy.DESTROY
       });
