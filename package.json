@@ -10,7 +10,7 @@
     "test": "jest",
     "cdk": "cdk",
     "deploy": "npm run build && npm run cdk -- deploy",
-    "synth": "npm run build && npm run cdk -- synth demo"
+    "synth": "npm run build && npm run cdk -- synth DemoStack"
   },
   "devDependencies": {
     "@aws-cdk/assert": "^1.80.0",
