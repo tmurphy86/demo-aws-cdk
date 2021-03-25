@@ -17,3 +17,5 @@ new DemoStack(app, 'DemoStackEast',
         env: {region: "us-east-1"},
         encryptBucket: true
     });
+
+app.synth();

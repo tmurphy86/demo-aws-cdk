@@ -9,7 +9,8 @@
     "watch": "tsc -w",
     "test": "jest",
     "cdk": "cdk",
-    "deploy": "npm run build && npm run cdk -- deploy"
+    "deploy": "npm run build && npm run cdk -- deploy",
+    "synth": "npm run build && npm run cdk -- synth demo"
   },
   "devDependencies": {
     "@aws-cdk/assert": "1.94.1",
