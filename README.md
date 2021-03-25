@@ -17,14 +17,14 @@ graph TD
     E -->G[S3 Artifacts fab:fa-bitbucket] -->E
     E -->|Return Results|D
     D -->|Done|C
-    C -->|Start| O[fab:fa-aws AWS CodeDeploy fas:fa-parachute-box] -->|far:fa-check-circle  fas:fa-ban | M[fab:fa-aws Dev Account]
+    C -->|Start| O[fab:fa-aws AWS CodeDeploy fas:fa-parachute-box] -->|far:fa-check-circle  fas:fa-ban | M[fab:fa-aws Dev Account   ]
     O -->|far:fa-check-circle  fas:fa-ban | N[fab:fa-aws Staging Account]
     O -->|far:fa-check-circle  fas:fa-ban | P[fab:fa-aws Production Account]
     O --> |Done| C
 ```
 </center>
 
-`To see the flowchart -` https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid
+`Flowchart -` https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid
 
 
 ## Defining your environment & projects
