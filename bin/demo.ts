@@ -12,15 +12,10 @@ new DemoStack(app, 'DemoStackWest',
         encryptBucket: true
     });
 
-new DemoStack(app, 'DemoStackEast', 
-    {
-        env: {region: "us-east-1"},
-        encryptBucket: true
-    });
-new DemoStack(app, 'DemoStackEastBackup', 
-    {
-        env: {region: "us-east-1"},
-        encryptBucket: true
-    });
+// new DemoStack(app, 'DemoStackEast', 
+//     {
+//         env: {region: "us-east-1"},
+//         encryptBucket: true
+//     });
 
 app.synth();
