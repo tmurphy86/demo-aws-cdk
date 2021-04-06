@@ -36,7 +36,7 @@ Deploy Project by committing to the main branch (or feature branch as configured
 
 Invoke the CDK `cdk init app --language typescript`
 
-
+Create buckets
 ### AWS services
 
 - AWS CodeCommit (or any source control provider supported by CodePipeline)
